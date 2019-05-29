@@ -142,5 +142,5 @@ void loop() {
   EPD.println(message);
   EPD.display();
  
-  ESP.deepSleep(ESP.deepSleepMax()); //deepsleep for as long as possibe (~72minutes)
+  ESP.deepSleep(5400000000); //deepsleep for ~90 minutes
 }
